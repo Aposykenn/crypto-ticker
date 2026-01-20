@@ -1,0 +1,19 @@
+# Bağımlılıklar (Kesinlikle yüklenmemeli)
+node_modules/
+
+# İşletim Sistemi dosyaları
+.DS_Store
+Thumbs.db
+
+# Log dosyaları
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Electron build çıktıları (İleride paketlerseniz oluşur)
+dist/
+out/
+build/
+
+# Çevresel değişkenler (API anahtarı vs. olursa diye)
+.env
